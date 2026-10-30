@@ -344,7 +344,7 @@ section {
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
   gap: 2.4rem;
-  max-width: 70rem;
+  max-width: 74rem;
   margin-bottom: 3rem;
 }
 
@@ -391,7 +391,8 @@ section {
   color: var(--accent);
 }
 
-.home-img-wrap {
+.home-photo {
+  position: relative;
   padding: 0.8rem;
   border: 1px solid var(--border);
   border-radius: 50%;
@@ -400,7 +401,7 @@ section {
   justify-self: end;
 }
 
-.home-img-wrap::before {
+.home-photo::before {
   content: '';
   position: absolute;
   inset: -1.1rem;
@@ -410,7 +411,7 @@ section {
   pointer-events: none;
 }
 
-.home-img-wrap img {
+.home-photo img {
   width: 15rem;
   height: 15rem;
   border-radius: 50%;
@@ -848,9 +849,9 @@ button:focus-visible, a:focus-visible {
   .project-grid { grid-template-columns: 1fr 1fr; }
   #home { flex-direction: column; align-items: flex-start; text-align: left; justify-content: center; padding-top: 14rem; }
   .home-content { max-width: 100%; }
-  .home-intro { max-width: 70rem; }
+  .home-intro { max-width: 74rem; }
   .home-cta, .home-social { justify-content: flex-start; }
-  .home-img-wrap img { width: 12rem; height: 12rem; }
+  .home-photo img { width: 12rem; height: 12rem; }
 }
 
 @media (max-width: 640px) {
@@ -865,10 +866,10 @@ button:focus-visible, a:focus-visible {
   .footer-inner { flex-direction: column; align-items: flex-start; }
   .home-name { font-size: clamp(3.4rem, 10vw, 4rem); }
   #home { padding-top: 13rem; }
-  .home-intro { grid-template-columns: 8rem minmax(0, 1fr); align-items: start; gap: 1.4rem; }
-  .home-intro .home-desc { grid-column: 2; grid-row: 1; font-size: 1.25rem; line-height: 1.7; }
-  .home-intro .home-img-wrap { grid-column: 1; grid-row: 1; justify-self: start; padding: 0.5rem; }
-  .home-img-wrap img { width: 7rem; height: 7rem; }
+  .home-intro { grid-template-columns: minmax(0, 1fr) 7rem; align-items: start; gap: 1.4rem; }
+  .home-intro .home-desc { grid-column: 1; grid-row: 1; font-size: 1.25rem; line-height: 1.7; }
+  .home-intro .home-photo { grid-column: 2; grid-row: 1; justify-self: end; padding: 0.5rem; }
+  .home-photo img { width: 7rem; height: 7rem; }
   .skill-group { grid-template-columns: 1fr; gap: 0.5rem; padding: 1.2rem 0; }
   .portfolio-header { flex-direction: column; }
 }
