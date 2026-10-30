@@ -5,12 +5,16 @@ const html = document.documentElement;
 const themeToggle = document.getElementById('themeToggle');
 const savedTheme = localStorage.getItem('theme') || 'dark';
 html.setAttribute('data-theme', savedTheme);
+themeToggle.setAttribute('aria-pressed', String(savedTheme === 'light'));
+themeToggle.setAttribute('aria-label', `Switch to ${savedTheme === 'dark' ? 'light' : 'dark'} theme`);
 
 themeToggle.addEventListener('click', () => {
   const current = html.getAttribute('data-theme');
   const next = current === 'dark' ? 'light' : 'dark';
   html.setAttribute('data-theme', next);
   localStorage.setItem('theme', next);
+  themeToggle.setAttribute('aria-pressed', String(next === 'light'));
+  themeToggle.setAttribute('aria-label', `Switch to ${next === 'dark' ? 'light' : 'dark'} theme`);
 });
 
 // ── Mobile hamburger
@@ -18,16 +22,33 @@ const hamburger = document.getElementById('hamburger');
 const mobileNav = document.getElementById('mobileNav');
 
 hamburger.addEventListener('click', () => {
-  hamburger.classList.toggle('open');
-  mobileNav.classList.toggle('open');
-  document.body.style.overflow = mobileNav.classList.contains('open') ? 'hidden' : '';
+  const isOpen = hamburger.getAttribute('aria-expanded') !== 'true';
+  hamburger.classList.toggle('open', isOpen);
+  mobileNav.classList.toggle('open', isOpen);
+  hamburger.setAttribute('aria-expanded', String(isOpen));
+  hamburger.setAttribute('aria-label', isOpen ? 'Close navigation menu' : 'Open navigation menu');
+  mobileNav.setAttribute('aria-hidden', String(!isOpen));
+  mobileNav.inert = !isOpen;
+  document.body.style.overflow = isOpen ? 'hidden' : '';
 });
 
-window.closeMenu = function () {
+function closeMenu() {
   hamburger.classList.remove('open');
   mobileNav.classList.remove('open');
+  hamburger.setAttribute('aria-expanded', 'false');
+  hamburger.setAttribute('aria-label', 'Open navigation menu');
+  mobileNav.setAttribute('aria-hidden', 'true');
+  mobileNav.inert = true;
   document.body.style.overflow = '';
-};
+}
+
+mobileNav.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && mobileNav.classList.contains('open')) {
+    closeMenu();
+    hamburger.focus();
+  }
+});
 
 // ── Scroll reveal + skill bar animation
 const reveals = document.querySelectorAll('.reveal');
