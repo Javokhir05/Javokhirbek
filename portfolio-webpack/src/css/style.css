@@ -869,7 +869,7 @@ button:focus-visible, a:focus-visible {
   .home-intro { grid-template-columns: minmax(0, 1fr) 7rem; align-items: start; gap: 1.4rem; }
   .home-intro .home-desc { grid-column: 1; grid-row: 1; font-size: 1.25rem; line-height: 1.7; }
   .home-intro .home-photo { grid-column: 2; grid-row: 1; justify-self: end; padding: 0.5rem; }
-  .home-photo img { width: 7rem; height: 7rem; }
+  .home-photo img { width: 9rem; height: 9rem; }
   .skill-group { grid-template-columns: 1fr; gap: 0.5rem; padding: 1.2rem 0; }
   .portfolio-header { flex-direction: column; }
 }
