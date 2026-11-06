@@ -405,6 +405,17 @@ section {
   z-index: 2;
 }
 
+/* Smooth photo hover effect */
+.home-photo img {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.home-photo:hover img {
+  transform: scale(1.04);
+}
+
+
+/* -------------------------- */
 .home-photo::before {
   content: '';
   position: absolute;
