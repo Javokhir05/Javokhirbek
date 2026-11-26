@@ -1,0 +1,291 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "availability": "OPEN TO WORK",
+    "intro": "HELLO, I'M JAVOKHIRBEK",
+    "title": "I build digital experiences that matter.",
+    "role": "Frontend Developer & Aspiring Full-Stack Developer",
+    "description": "I create modern websites and web applications, combining clean interfaces with practical backend solutions.",
+    "explore": "Explore my work",
+    "talk": "Let's talk",
+    "download": "Download CV",
+    "scroll": "SCROLL TO EXPLORE",
+    "imageLabel": "BUILDING · TESTING · CREATING"
+  },
+  "services": {
+    "eyebrow": "WHAT I DO",
+    "title": "Services",
+    "description": "Practical web development services focused on quality, usability, and real business needs.",
+    "learnMore": "Learn more",
+    "items": {
+      "website": {
+        "title": "Website Development",
+        "description": "Modern, responsive websites for businesses, startups, and personal brands."
+      },
+      "applications": {
+        "title": "Web Application Development",
+        "description": "Interactive web applications designed to solve real problems and deliver useful functionality."
+      },
+      "redesign": {
+        "title": "Website Redesign & Maintenance",
+        "description": "Modernize existing websites, fix issues, improve usability, and keep everything running smoothly."
+      }
+    }
+  },
+  "servicePages": {
+    "common": {
+      "back": "Back to services",
+      "overview": "Overview",
+      "features": "What's included",
+      "technologies": "Technologies I use",
+      "process": "My development process",
+      "deliverables": "What you receive",
+      "contact": "Discuss your project",
+      "step": "STEP"
+    },
+    "website": {
+      "title": "Website Development",
+      "subtitle": "Building modern websites from idea to production.",
+      "description": "I develop responsive websites that help businesses and individuals establish a professional online presence.",
+      "overview": "Every website starts with understanding its purpose, audience, and requirements. I focus on building clear, responsive interfaces that work across devices.",
+      "features": [
+        "Responsive design for desktop, tablet, and mobile",
+        "Clean and maintainable frontend code",
+        "Reusable components and consistent layouts",
+        "Contact sections and external integrations",
+        "Basic SEO and performance considerations"
+      ],
+      "technologies": ["HTML", "CSS", "JavaScript", "React", "Vite"],
+      "process": [
+        {
+          "title": "Discovery and planning",
+          "description": "Understand your goals, audience, content, and website requirements."
+        },
+        {
+          "title": "Design and structure",
+          "description": "Plan the layout, sections, navigation, and responsive behavior."
+        },
+        {
+          "title": "Development",
+          "description": "Build the website using reusable components and clean code."
+        },
+        {
+          "title": "Testing and refinement",
+          "description": "Check responsiveness, functionality, performance, and browser compatibility."
+        },
+        {
+          "title": "Deployment",
+          "description": "Prepare the production build and publish the website."
+        }
+      ],
+      "deliverables": [
+        "A responsive, production-ready website",
+        "Source code and project structure",
+        "Deployment assistance",
+        "Basic documentation"
+      ]
+    },
+    "applications": {
+      "title": "Web Application Development",
+      "subtitle": "Turning ideas into functional web applications.",
+      "description": "I build interactive web applications with frontend interfaces, API integrations, and practical backend functionality.",
+      "overview": "Web applications need more than a good interface. I consider how data moves through the application, how users interact with it, and how the frontend communicates with backend services.",
+      "features": [
+        "Interactive user interfaces",
+        "Frontend and backend integration",
+        "REST API integration",
+        "Authentication and data handling where required",
+        "Responsive layouts and reusable components"
+      ],
+      "technologies": [
+        "React",
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "REST APIs"
+      ],
+      "process": [
+        {
+          "title": "Requirements and planning",
+          "description": "Define the application's purpose, features, users, and technical requirements."
+        },
+        {
+          "title": "Architecture and database",
+          "description": "Plan the application structure, API communication, and data model."
+        },
+        {
+          "title": "Frontend development",
+          "description": "Build the user interface and connect the required interactions."
+        },
+        {
+          "title": "Backend integration",
+          "description": "Implement or integrate APIs, data handling, and application logic."
+        },
+        {
+          "title": "Testing and deployment",
+          "description": "Test key workflows, fix issues, and prepare the application for production."
+        }
+      ],
+      "deliverables": [
+        "A functional web application",
+        "Organized source code",
+        "API and database integration where required",
+        "Deployment guidance and basic documentation"
+      ]
+    },
+    "redesign": {
+      "title": "Website Redesign & Maintenance",
+      "subtitle": "Improving existing websites without starting from zero.",
+      "description": "I help improve existing websites through visual updates, responsive fixes, usability improvements, and ongoing maintenance.",
+      "overview": "An existing website may need a visual refresh, technical improvements, or fixes to work better across devices. I first review the current website and identify practical improvements.",
+      "features": [
+        "Modernized visual design",
+        "Mobile and tablet responsiveness fixes",
+        "UI and usability improvements",
+        "Bug fixing and code cleanup",
+        "Content and component updates"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Git",
+        "Browser Developer Tools"
+      ],
+      "process": [
+        {
+          "title": "Website review",
+          "description": "Inspect the existing website, its structure, and reported issues."
+        },
+        {
+          "title": "Improvement plan",
+          "description": "Prioritize visual, functional, and technical changes."
+        },
+        {
+          "title": "Implementation",
+          "description": "Apply the agreed improvements while preserving necessary functionality."
+        },
+        {
+          "title": "Testing",
+          "description": "Check the updated website across screen sizes and key interactions."
+        },
+        {
+          "title": "Delivery",
+          "description": "Provide the updated website and explain the changes made."
+        }
+      ],
+      "deliverables": [
+        "Updated website",
+        "Responsive layout improvements",
+        "Bug fixes and code updates",
+        "Summary of completed changes"
+      ]
+    }
+  },
+  "projects": {
+    "eyebrow": "SELECTED WORK",
+    "title": "Projects",
+    "description": "A selection of projects I've built while learning, experimenting, and solving practical problems.",
+    "status": {
+      "completed": "Completed",
+      "development": "In Development"
+    },
+    "categories": {
+      "eschool": "Education Platform",
+      "devconnect": "Developer Social Platform",
+      "fittrack": "Fitness Web Application",
+      "chatbot": "AI Web Application"
+    },
+    "items": {
+      "eschool": {
+        "description": "An online education platform designed to connect students and teachers, manage learning materials, and support interactive learning."
+      },
+      "devconnect": {
+        "description": "A platform for developers to discover like-minded people through skills, share projects, and collaborate with other developers."
+      },
+      "fittrack": {
+        "description": "A fitness tracking application designed to help users monitor workouts and manage their fitness progress."
+      },
+      "chatbot": {
+        "description": "An AI-powered chatbot built with JavaScript and Gemini API, supporting multiple languages and conversation history."
+      }
+    },
+    "github": "GitHub",
+    "live": "Live Demo"
+  },
+  "skills": {
+    "eyebrow": "MY TOOLKIT",
+    "title": "Technologies & Skills",
+    "description": "Technologies I use and continue to develop my skills with.",
+    "categories": {
+      "frontend": "Frontend Development",
+      "backend": "Backend & Database",
+      "tools": "Tools & Workflow"
+    },
+    "levelNote": "I continuously learn and improve through practical projects."
+  },
+  "about": {
+    "eyebrow": "A LITTLE ABOUT ME",
+    "title": "About Me",
+    "paragraph1": "I'm a Computer Engineering student and aspiring Full-Stack Developer based in Warsaw, Poland.",
+    "paragraph2": "My main focus is frontend development with JavaScript and React. I enjoy creating clean, responsive interfaces and turning ideas into practical web experiences.",
+    "paragraph3": "I'm also exploring backend development, databases, and application architecture to understand how complete web applications are built.",
+    "location": "Location",
+    "locationValue": "Warsaw, Poland",
+    "education": "Education",
+    "educationValue": "Computer Engineering Student",
+    "focus": "Development Focus",
+    "focusValue": "Frontend & Full-Stack Development",
+    "status": "Availability",
+    "statusValue": "Open to Internship / Work",
+    "button": "Let's work together",
+    "code": {
+      "role": "Frontend Developer",
+      "learning": "Learning backend development",
+      "interests": "Web technologies & software engineering",
+      "available": true,
+      "status": "Building something new..."
+    }
+  },
+  "contact": {
+    "eyebrow": "LET'S CONNECT",
+    "title": "Have a project in mind?",
+    "description": "Whether you have a project idea, an opportunity, or just want to connect, feel free to reach out.",
+    "email": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "upwork": "Upwork",
+    "telegram": "Telegram",
+    "instagram": "Instagram",
+    "location": "Warsaw, Poland",
+    "button": "Get in touch",
+    "conversationTitle": "Let's start a conversation.",
+    "conversationDescription": "I'm interested in frontend development opportunities, internships, and projects where I can learn and contribute.",
+    "emailLabel": "EMAIL ME",
+    "locationLabel": "LOCATION",
+    "messageLabel": "A MESSAGE FROM ME",
+    "messageTitle": "Every great project starts with a conversation.",
+    "messageDescription": "Whether it's an internship, collaboration, or a new idea, I'm always open to meaningful conversations.",
+    "sendEmail": "Send me an email"
+  },
+  "footer": {
+    "description": "Building digital experiences through code, creativity, and continuous learning.",
+    "navigation": "Navigation",
+    "socials": "Find me online",
+    "backToTop": "Back to top",
+    "rights": "All rights reserved."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist or may have been moved.",
+    "back": "Back to homepage"
+  }
+}

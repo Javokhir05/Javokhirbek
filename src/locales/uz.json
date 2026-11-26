@@ -1,0 +1,291 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "services": "Xizmatlar",
+    "projects": "Loyihalar",
+    "about": "Men haqimda",
+    "contact": "Aloqa"
+  },
+  "hero": {
+    "availability": "ISH TAKLIFLARIGA OCHIQMAN",
+    "intro": "SALOM, MEN JAVOKHIRBEKMAN",
+    "title": "Muhim ahamiyatga ega raqamli loyihalar yarataman.",
+    "role": "Frontend dasturchi va kelajakdagi Full-Stack dasturchi",
+    "description": "Men zamonaviy veb-saytlar va veb-ilovalar yarataman. Bunda qulay interfeyslarni amaliy backend yechimlari bilan birlashtiraman.",
+    "explore": "Loyihalarimni ko'rish",
+    "talk": "Bog'lanish",
+    "download": "CV yuklab olish",
+    "scroll": "KO'PROQ KO'RISH UCHUN PASTGA TUSHING",
+    "imageLabel": "YARATISH · TESTLASH · RIVOJLANTIRISH"
+  },
+  "services": {
+    "eyebrow": "MEN NIMA BILAN SHUG'ULLANAMAN",
+    "title": "Xizmatlar",
+    "description": "Sifat, qulaylik va biznesning real ehtiyojlariga yo'naltirilgan veb-dasturlash xizmatlari.",
+    "learnMore": "Batafsil",
+    "items": {
+      "website": {
+        "title": "Veb-sayt yaratish",
+        "description": "Bizneslar, startaplar va shaxsiy brendlar uchun zamonaviy va barcha qurilmalarga mos veb-saytlar."
+      },
+      "applications": {
+        "title": "Veb-ilovalar yaratish",
+        "description": "Haqiqiy muammolarni hal qiladigan va foydali imkoniyatlarni taqdim etadigan interaktiv veb-ilovalar."
+      },
+      "redesign": {
+        "title": "Veb-saytni yangilash va qo'llab-quvvatlash",
+        "description": "Mavjud saytlarni yangilash, xatolarni tuzatish va foydalanish qulayligini yaxshilash."
+      }
+    }
+  },
+  "servicePages": {
+    "common": {
+      "back": "Xizmatlarga qaytish",
+      "overview": "Umumiy ma'lumot",
+      "features": "Xizmat tarkibiga nimalar kiradi",
+      "technologies": "Foydalaniladigan texnologiyalar",
+      "process": "Ishlab chiqish jarayoni",
+      "deliverables": "Sizga nimalar topshiriladi",
+      "contact": "Loyihani muhokama qilish",
+      "step": "BOSQICH"
+    },
+    "website": {
+      "title": "Veb-sayt yaratish",
+      "subtitle": "G'oyadan tayyor saytni internetga joylashgacha.",
+      "description": "Men kompaniyalar va jismoniy shaxslarga internetda professional ko'rinishga ega bo'lishga yordam beradigan moslashuvchan veb-saytlar yarataman.",
+      "overview": "Har bir sayt uning maqsadi, auditoriyasi va talablarini tushunishdan boshlanadi. Men turli qurilmalarda to'g'ri ishlaydigan, tushunarli va moslashuvchan interfeyslar yaratishga e'tibor beraman.",
+      "features": [
+        "Kompyuter, planshet va telefonlar uchun moslashuvchan dizayn",
+        "Tartibli va qo'llab-quvvatlash oson bo'lgan frontend kod",
+        "Qayta foydalanish mumkin bo'lgan komponentlar va yagona sahifa tuzilishi",
+        "Aloqa bo'limlari va tashqi xizmatlar integratsiyasi",
+        "Asosiy SEO va sayt tezligiga e'tibor"
+      ],
+      "technologies": ["HTML", "CSS", "JavaScript", "React", "Vite"],
+      "process": [
+        {
+          "title": "Talablarni aniqlash va rejalashtirish",
+          "description": "Maqsadlar, auditoriya, kontent va saytga qo'yiladigan talablarni aniqlash."
+        },
+        {
+          "title": "Dizayn va tuzilma",
+          "description": "Sahifa ko'rinishi, bo'limlar, navigatsiya va turli qurilmalarga moslashuvni rejalashtirish."
+        },
+        {
+          "title": "Dasturlash",
+          "description": "Qayta foydalanish mumkin bo'lgan komponentlar va tartibli kod yordamida sayt yaratish."
+        },
+        {
+          "title": "Testlash va takomillashtirish",
+          "description": "Moslashuvchanlik, funksionallik, tezlik va brauzerlar bilan mosligini tekshirish."
+        },
+        {
+          "title": "Internetga joylash",
+          "description": "Production versiyasini tayyorlash va saytni internetga joylashtirish."
+        }
+      ],
+      "deliverables": [
+        "To'liq tayyor va moslashuvchan veb-sayt",
+        "Loyihaning source code fayllari va tuzilmasi",
+        "Saytni internetga joylashda yordam",
+        "Asosiy hujjatlashtirish"
+      ]
+    },
+    "applications": {
+      "title": "Veb-ilovalar yaratish",
+      "subtitle": "G'oyalarni funksional veb-ilovalarga aylantirish.",
+      "description": "Men frontend interfeyslar, API integratsiyasi va amaliy backend funksiyalariga ega interaktiv veb-ilovalar yarataman.",
+      "overview": "Veb-ilova uchun faqat chiroyli interfeys yetarli emas. Men ma'lumotlar harakati, foydalanuvchilar bilan o'zaro aloqa va frontend hamda backend o'rtasidagi bog'lanishni ham hisobga olaman.",
+      "features": [
+        "Interaktiv foydalanuvchi interfeyslari",
+        "Frontend va backend integratsiyasi",
+        "REST API integratsiyasi",
+        "Zarur bo'lganda autentifikatsiya va ma'lumotlarni qayta ishlash",
+        "Moslashuvchan sahifalar va qayta foydalaniladigan komponentlar"
+      ],
+      "technologies": [
+        "React",
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "REST APIs"
+      ],
+      "process": [
+        {
+          "title": "Talablar va rejalashtirish",
+          "description": "Ilovaning maqsadi, funksiyalari, foydalanuvchilari va texnik talablarini aniqlash."
+        },
+        {
+          "title": "Arxitektura va ma'lumotlar bazasi",
+          "description": "Ilova tuzilmasi, API bilan aloqa va ma'lumotlar modelini rejalashtirish."
+        },
+        {
+          "title": "Frontend dasturlash",
+          "description": "Foydalanuvchi interfeysini yaratish va kerakli interaktiv funksiyalarni ishlab chiqish."
+        },
+        {
+          "title": "Backend integratsiyasi",
+          "description": "API, ma'lumotlarni qayta ishlash va ilova logikasini yaratish yoki integratsiya qilish."
+        },
+        {
+          "title": "Testlash va internetga joylash",
+          "description": "Asosiy funksiyalarni tekshirish, xatolarni tuzatish va ilovani ishga tushirishga tayyorlash."
+        }
+      ],
+      "deliverables": [
+        "Ishlaydigan veb-ilova",
+        "Tartibli source code",
+        "Zarur bo'lganda API va ma'lumotlar bazasi integratsiyasi",
+        "Internetga joylash bo'yicha ko'rsatmalar va asosiy hujjatlar"
+      ]
+    },
+    "redesign": {
+      "title": "Veb-saytni yangilash va qo'llab-quvvatlash",
+      "subtitle": "Mavjud saytlarni boshidan yaratmasdan yaxshilash.",
+      "description": "Men mavjud veb-saytlarning dizaynini yangilash, moslashuvchanligini tuzatish, foydalanish qulayligini oshirish va texnik qo'llab-quvvatlash orqali ularni yaxshilashga yordam beraman.",
+      "overview": "Mavjud saytga yangi dizayn, texnik yaxshilanishlar yoki turli qurilmalarda to'g'ri ishlashi uchun tuzatishlar kerak bo'lishi mumkin. Avval saytni o'rganib chiqaman va yaxshilash mumkin bo'lgan jihatlarni aniqlayman.",
+      "features": [
+        "Dizaynni zamonaviylashtirish",
+        "Telefon va planshetlar uchun moslashuvchanlikni yaxshilash",
+        "Interfeys va foydalanish qulayligini oshirish",
+        "Xatolarni tuzatish va kodni tartibga keltirish",
+        "Kontent va komponentlarni yangilash"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Git",
+        "Browser Developer Tools"
+      ],
+      "process": [
+        {
+          "title": "Saytni tahlil qilish",
+          "description": "Mavjud sayt, uning tuzilmasi va muammolarini o'rganish."
+        },
+        {
+          "title": "Yaxshilash rejasini tuzish",
+          "description": "Dizayn, funksionallik va texnik o'zgarishlarni ustuvorlik bo'yicha belgilash."
+        },
+        {
+          "title": "O'zgarishlarni amalga oshirish",
+          "description": "Kerakli funksiyalarni saqlagan holda kelishilgan yaxshilanishlarni bajarish."
+        },
+        {
+          "title": "Testlash",
+          "description": "Yangilangan saytni turli ekran o'lchamlari va asosiy funksiyalar bo'yicha tekshirish."
+        },
+        {
+          "title": "Natijani topshirish",
+          "description": "Yangilangan saytni topshirish va bajarilgan o'zgarishlarni tushuntirish."
+        }
+      ],
+      "deliverables": [
+        "Yangilangan veb-sayt",
+        "Yaxshilangan moslashuvchan dizayn",
+        "Tuzatilgan xatolar va yangilangan kod",
+        "Bajarilgan ishlar haqida qisqacha ma'lumot"
+      ]
+    }
+  },
+  "projects": {
+    "eyebrow": "TANLANGAN LOYIHALAR",
+    "title": "Loyihalar",
+    "description": "O'rganish, tajriba qilish va amaliy muammolarni hal qilish jarayonida yaratgan loyihalarim.",
+    "status": {
+      "completed": "Tugallangan",
+      "development": "Ishlab chiqilmoqda"
+    },
+    "categories": {
+      "eschool": "Ta'lim platformasi",
+      "devconnect": "Dasturchilar ijtimoiy platformasi",
+      "fittrack": "Fitness veb-ilovasi",
+      "chatbot": "AI veb-ilovasi"
+    },
+    "items": {
+      "eschool": {
+        "description": "O'quvchilar va o'qituvchilarni bog'lash, o'quv materiallarini boshqarish va interaktiv ta'limni qo'llab-quvvatlash uchun yaratilgan onlayn ta'lim platformasi."
+      },
+      "devconnect": {
+        "description": "Dasturchilarga o'z ko'nikmalari orqali hamfikrlarni topish, loyihalarini ulashish va boshqa dasturchilar bilan hamkorlik qilish imkonini beruvchi platforma."
+      },
+      "fittrack": {
+        "description": "Mashg'ulotlarni kuzatish va shaxsiy fitness natijalarini nazorat qilish uchun yaratilgan ilova."
+      },
+      "chatbot": {
+        "description": "JavaScript va Gemini API yordamida yaratilgan, bir nechta til va suhbat tarixini qo'llab-quvvatlaydigan AI chatbot."
+      }
+    },
+    "github": "GitHub",
+    "live": "Jonli demo"
+  },
+  "skills": {
+    "eyebrow": "MENING TEXNOLOGIYALARIM",
+    "title": "Texnologiyalar va ko'nikmalar",
+    "description": "Men foydalanadigan va o'zlashtirishda davom etayotgan texnologiyalar.",
+    "categories": {
+      "frontend": "Frontend dasturlash",
+      "backend": "Backend va ma'lumotlar bazasi",
+      "tools": "Vositalar va ish jarayoni"
+    },
+    "levelNote": "Amaliy loyihalar orqali doimiy ravishda o'rganaman va rivojlanaman."
+  },
+  "about": {
+    "eyebrow": "MEN HAQIMDA QISQACHA",
+    "title": "Men haqimda",
+    "paragraph1": "Men Polshaning Varshava shahrida yashovchi Computer Engineering talabasi va kelajakdagi Full-Stack dasturchiman.",
+    "paragraph2": "Asosiy yo'nalishim JavaScript va React yordamida frontend dasturlash. Tartibli, moslashuvchan interfeyslar yaratish va g'oyalarni amaliy veb-loyihalarga aylantirish menga yoqadi.",
+    "paragraph3": "Shuningdek, to'liq veb-ilovalar qanday yaratilishini yaxshiroq tushunish uchun backend dasturlash, ma'lumotlar bazalari va ilova arxitekturasini ham o'rganmoqdaman.",
+    "location": "Joylashuv",
+    "locationValue": "Varshava, Polsha",
+    "education": "Ta'lim",
+    "educationValue": "Computer Engineering talabasi",
+    "focus": "Asosiy yo'nalish",
+    "focusValue": "Frontend va Full-Stack dasturlash",
+    "status": "Mavjudlik",
+    "statusValue": "Stajirovka va ish takliflariga ochiqman",
+    "button": "Keling, birgalikda ishlaymiz",
+    "code": {
+      "role": "Frontend dasturchi",
+      "learning": "Backend dasturlashni o'rganmoqda",
+      "interests": "Veb-texnologiyalar va dasturiy injiniring",
+      "available": true,
+      "status": "Yangi loyiha ustida ishlayapman..."
+    }
+  },
+  "contact": {
+    "eyebrow": "BOG'LANAMIZ",
+    "title": "Loyiha g'oyangiz bormi?",
+    "description": "Agar sizda loyiha g'oyasi, hamkorlik taklifi bo'lsa yoki shunchaki bog'lanmoqchi bo'lsangiz, bemalol yozing.",
+    "email": "Elektron pochta",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "upwork": "Upwork",
+    "telegram": "Telegram",
+    "instagram": "Instagram",
+    "location": "Varshava, Polsha",
+    "button": "Bog'lanish",
+    "conversationTitle": "Keling, suhbatni boshlaymiz.",
+    "conversationDescription": "Men frontend dasturlash imkoniyatlari, amaliyot va o'rganish hamda o'z hissamni qo'shishim mumkin bo'lgan loyihalarga qiziqaman.",
+    "emailLabel": "MENGA YOZING",
+    "locationLabel": "JOYlashUV",
+    "messageLabel": "MENING XABARIM",
+    "messageTitle": "Har bir ajoyib loyiha suhbatdan boshlanadi.",
+    "messageDescription": "Amaliyot, hamkorlik yoki yangi g'oya bo'lishidan qat'i nazar, men mazmunli suhbatlarga doim ochiqman.",
+    "sendEmail": "Email yuborish"
+  },
+  "footer": {
+    "description": "Kod, ijodkorlik va doimiy o'rganish orqali raqamli loyihalar yarataman.",
+    "navigation": "Navigatsiya",
+    "socials": "Ijtimoiy tarmoqlar",
+    "backToTop": "Yuqoriga qaytish",
+    "rights": "Barcha huquqlar himoyalangan."
+  },
+  "notFound": {
+    "title": "Sahifa topilmadi",
+    "description": "Siz qidirayotgan sahifa mavjud emas yoki boshqa joyga ko'chirilgan.",
+    "back": "Bosh sahifaga qaytish"
+  }
+}
