@@ -4,7 +4,7 @@ A personal portfolio website showcasing my projects, technical skills, services,
 
 ## 🌐 Live Demo
 
-[View Portfolio](YOUR_DEPLOYED_PORTFOLIO_URL)
+[View Portfolio](https://javokhirmee.netlify.app/#portfolio)
 
 ## ✨ Features
 
