@@ -962,9 +962,18 @@ button {
 
 .about {
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
   align-items: center;
-  gap: 70px;
+  gap: 50px;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.about-content,
+.about-visual {
+  min-width: 0;
+  width: 100%;
 }
 
 .about-content .section-heading {
