@@ -1055,8 +1055,28 @@ button {
 
 @media (max-width: 900px) {
   .about {
-    grid-template-columns: 1fr;
-    gap: 40px;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 35px;
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+  .about > * {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .about-content,
+  .about-visual,
+  .about-visual-inner {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .about-visual pre {
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: pre;
   }
 }
 
