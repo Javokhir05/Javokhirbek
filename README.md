@@ -1,16 +1,75 @@
-# React + Vite
+# Javokhirbek — Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A personal portfolio website showcasing my projects, technical skills, services, and experience as a Computer Engineering student and aspiring Full-Stack Developer.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View Portfolio](YOUR_DEPLOYED_PORTFOLIO_URL)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Modern, responsive design
+- Multilingual support: English, Russian, and Uzbek
+- Interactive project showcase
+- Dedicated service detail pages
+- About and skills sections
+- Contact links and email integration
+- Smooth reveal animations
+- Responsive navigation
 
-## Expanding the Oxlint configuration
+## 🛠️ Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React
+- JavaScript
+- Vite
+- CSS
+- React Router
+- i18next
+- React Icons
+
+## 📂 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Javokhir05/Javokhirbek.git
+```
+
+Navigate to the project:
+
+```bash
+cd Javokhirbek
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## 👨‍💻 About Me
+
+I'm a Computer Engineering student based in Warsaw, Poland, focusing on frontend development with JavaScript and React while exploring backend technologies and full-stack development.
+
+## 📬 Contact
+
+- GitHub: [Javokhir05](https://github.com/Javokhir05)
+- LinkedIn: [Javokhirbek Ruziboev](https://www.linkedin.com/in/javokhirbek-ruziboev-b89424306/)
+- Upwork: [My Profile](https://www.upwork.com/freelancers/~01e9c82191ddc38206)
+- Email: [roziboyevjavokhir045@gmail.com](mailto:roziboyevjavokhir045@gmail.com)
+
+---
+
+⭐ Feel free to explore the project and connect with me!
